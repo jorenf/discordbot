@@ -48,6 +48,8 @@ bot.on("message", async message => {
     .addField("!bardolf", "Laat een foto van de grote leider zien!")
     .addField("!Bardo", "Laat een typische bardo zin zien!")
     .addField("!veed", "Probeer het gewoon!!");
+    .addField("Gemaakt door", "Joren Aka Jorny#5350");
+
 
     return message.channel.send(serverembed);
   }
